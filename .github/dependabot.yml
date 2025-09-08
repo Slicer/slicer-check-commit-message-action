@@ -5,6 +5,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with "COMP: "
+      prefix: "COMP"
     groups:
       actions:
         patterns:
